@@ -40,7 +40,7 @@ class LP_Atividade_N1_1_01_2040482612017
         //Saída
         System.out.println("--- Dados do Aluno Fictício ---");
         System.out.println("Idade do Aluno: " + idade + " anos");
-        System.out.println("Números de Faltas: " + faltas);
+        System.out.println("Número de Faltas: " + faltas);
         System.out.println("Matrícula ID: " + matriculaId);
         System.out.println("Código Nacional do Estudante: " + codigoNacional);
         System.out.println("Nota do Trabalho: " + notaTrabalho);
