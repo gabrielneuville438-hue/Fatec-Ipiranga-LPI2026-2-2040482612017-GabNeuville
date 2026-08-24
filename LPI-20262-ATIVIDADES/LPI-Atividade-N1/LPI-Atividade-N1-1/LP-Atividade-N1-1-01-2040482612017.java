@@ -38,15 +38,15 @@ class LP_Atividade_N1_1_01_2040482612017
         boolean aprovado = input.nextBoolean();
 
         //Saída
-        System.out.println("--- Dados do Aluno Fictício ---");
-        System.out.println("Idade do Aluno: " + idade + " anos");
-        System.out.println("Números de Faltas: " + faltas);
-        System.out.println("Matrícula ID: " + matriculaId);
-        System.out.println("Código Nacional do Estudante: " + codigoNacional);
-        System.out.println("Nota do Trabalho: " + notaTrabalho);
-        System.out.println("Nota da Prova Final: " + notaProvaFinal);
-        System.out.println("Conceito Final do Aluno: " + conceitoFinal);
-        System.out.println("Aluno está Aprovado? " + aprovado);
+        System.out.print("--- Dados do Aluno Fictício ---");
+        System.out.print("Idade do Aluno: " + idade + " anos");
+        System.out.print("Números de Faltas: " + faltas);
+        System.out.print("Matrícula ID: " + matriculaId);
+        System.out.print("Código Nacional do Estudante: " + codigoNacional);
+        System.out.print("Nota do Trabalho: " + notaTrabalho);
+        System.out.print("Nota da Prova Final: " + notaProvaFinal);
+        System.out.print("Conceito Final do Aluno: " + conceitoFinal);
+        System.out.print("Aluno está Aprovado? " + aprovado);
 
         input.close(); //fim da variável Scanner
     }
