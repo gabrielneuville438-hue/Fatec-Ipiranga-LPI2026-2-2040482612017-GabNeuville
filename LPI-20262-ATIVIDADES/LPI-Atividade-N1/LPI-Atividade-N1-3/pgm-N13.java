@@ -40,7 +40,7 @@ class pgm_N13
         double minimo = dado[0];
         int indiceMaximo = 0;
         int indiceMinimo = 0;
-        for(int i = 0; i < dado.length; i++) 
+        for(int i = 1; i < dado.length; i++) 
         {
             if(dado[i] > maximo) {
                 maximo = dado[i];
