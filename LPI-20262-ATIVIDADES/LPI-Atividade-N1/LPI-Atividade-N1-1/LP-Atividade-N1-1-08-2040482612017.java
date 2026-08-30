@@ -22,7 +22,7 @@ class LP_Atividade_N1_1_08_2040482612017
         long parcelaBaseCentavos = centavos / numeroParcelas;
         System.out.println("Divisão de R$" + valorTotalReais + " por " + numeroParcelas + " em centavos: " + parcelaBaseCentavos + " centavos por parcela.");
         double centDouble = parcelaBaseCentavos / 100.0;
-        System.out.println("Valor convertido para exibição: R$" + centDouble);
+        System.out.println("Valor convertido para exibição: R$ " + centDouble);
   
         input.close();
     }
