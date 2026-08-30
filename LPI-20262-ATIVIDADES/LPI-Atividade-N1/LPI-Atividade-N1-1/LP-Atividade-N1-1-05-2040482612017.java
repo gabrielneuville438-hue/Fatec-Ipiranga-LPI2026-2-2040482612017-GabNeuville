@@ -31,7 +31,7 @@ class LP_Atividade_N1_1_05_2040482612017
         boolean necessidadeDeCompra = estoque < estoqueMinimo;
         System.out.println("O nível de estoque atual (" + estoque + ") está abaixo do mínimo (" + estoqueMinimo + ")? " + necessidadeDeCompra);
         int resto = estoque % tamanhoLote;
-        System.out.println("Unidades fora de caixas de " + tamanhoLote + ": " + resto);
+        System.out.println("Unidades fora de caixas fechadas de " + tamanhoLote + ": " + resto);
         boolean estoquePerfeito = estoque % tamanhoLote == 0;
         System.out.println("O estoque está perfeitamente fracionado em caixas completas? " + estoquePerfeito);
 
