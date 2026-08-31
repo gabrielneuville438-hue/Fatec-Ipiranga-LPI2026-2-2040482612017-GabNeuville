@@ -1,8 +1,8 @@
-import java.util.Scanner;
-
 /*O motivo de ter usado while é definir o true e false, sendo true para a senha errada
  *e false para senha certa. Vai ocorrer várias tentativas (true) até acertar (false) 
  */
+
+import java.util.Scanner;
 
 class LP_Atividade_N2_03_2040482612017 
 {
@@ -13,7 +13,7 @@ class LP_Atividade_N2_03_2040482612017
         int pinDigitado = 0;
         int count = 0;
 
-        while(pinDigitado != PIN) {
+        do {
             System.out.print("Informe o PIN de acesso: ");
             pinDigitado = input.nextInt();
             count++;
@@ -23,7 +23,7 @@ class LP_Atividade_N2_03_2040482612017
             }else {
                 System.out.println("PIN incorreto. Tente novamente.");
             }
-        }
+        } while(pinDiitado != PIN);
 
         input.close();
     }
