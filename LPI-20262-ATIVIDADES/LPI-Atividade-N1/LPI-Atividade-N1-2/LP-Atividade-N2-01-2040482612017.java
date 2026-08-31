@@ -1,9 +1,10 @@
-import java.util.Scanner;
-import java.util.Locale;
-
 /*O motivo de ter usado o for é obrigar o programa rodar exatamente a quantidade de alunos
  *para que todos tenham a nota e que os calculos sejam bem definidos
  */
+
+import java.util.Scanner;
+import java.util.Locale;
+
 class LP_Atividade_N2_01_2040482612017 
 {
     public static void main(String[] args) 
