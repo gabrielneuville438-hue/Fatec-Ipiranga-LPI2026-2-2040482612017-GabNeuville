@@ -1,5 +1,5 @@
-/*O motivo de ter usado o do-while é por ser um loop sentinela e
- * o teste é antes da execução obrigatoria do bloco da uma vez
+/*O motivo de ter usado o while é por ser um loop sentinela e
+ * o teste é para saber se vai ter compra ou não
  */
 
 import java.util.Scanner;
