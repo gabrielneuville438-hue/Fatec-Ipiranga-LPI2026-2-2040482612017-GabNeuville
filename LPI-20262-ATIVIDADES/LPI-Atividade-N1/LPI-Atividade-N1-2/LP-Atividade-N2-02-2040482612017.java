@@ -1,9 +1,9 @@
-import java.util.Scanner;
-import java.util.Locale;
-
 /*O motivo de ter usado o do-while é por ser um loop sentinela e
  * o teste é antes da execução obrigatoria do bloco da uma vez
  */
+
+import java.util.Scanner;
+import java.util.Locale;
 
 class LP_Atividade_N2_02_2040482612017 
 {
@@ -13,20 +13,21 @@ class LP_Atividade_N2_02_2040482612017
         Scanner input = new Scanner(System.in);
         double soma = 0.0;
         int count = 0;
-        double valorVenda;
 
-        do
+        System.out.print("Valor da venda (ou 0 para encerrar): ");
+        double valorVenda = input.nextDouble();
+
+        while(valorVenda != 0)
         {
-            System.out.print("Valor da venda (ou 0 para encerrar): ");
-            valorVenda = input.nextDouble();
-
             if(valorVenda > 0){
                 //Calculo
                 soma += valorVenda;
                 count++;
             }
 
-        } while(valorVenda != 0);
+            System.out.print("Valor da venda (ou 0 para encerrar): ");
+            valorVenda = input.nextDouble();
+        }
 
         if(count > 0) {
             double media = soma / count;
