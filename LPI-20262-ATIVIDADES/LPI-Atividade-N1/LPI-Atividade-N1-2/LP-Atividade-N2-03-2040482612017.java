@@ -1,5 +1,5 @@
-/*O motivo de ter usado while é definir o true e false, sendo true para a senha errada
- *e false para senha certa. Vai ocorrer várias tentativas (true) até acertar (false) 
+/*O motivo de ter usado do-while é o uso obrigatório de rodar o bloco uma vez
+ *e a condição é depois da digitação 
  */
 
 import java.util.Scanner;
